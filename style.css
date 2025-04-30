@@ -1,0 +1,584 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.logo h1 {
+  font-size: 36px;
+  font-weight: 800;
+  color: white;
+}
+.logo h1 span {
+  color: rgb(106, 193, 255);
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://fototips.ru/wp-content/uploads/2011/12/landscape_02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.home nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 86px 32px 86px;
+}
+
+.home nav ul {
+  list-style: none;
+}
+
+.home nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.home nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.home nav ul li a:hover {
+  color: rgb(106, 193, 255);
+}
+
+.home .main .header h1 {
+  color: white;
+  position: relative;
+  font-size: 70px;
+  left: 10%;
+  top: 120px;
+  width: 650px;
+}
+
+.home .main button {
+  position: relative;
+  top: 150px;
+  left: 10%;
+  padding: 12px 48px;
+  font-size: 18px;
+  font-weight: 900;
+  border: solid 3px rgb(106, 193, 255);
+  background: none;
+  color: rgb(106, 193, 255);
+  border-radius: 16px;
+  transition: 0.2s;
+}
+
+.home .main button:hover {
+  background-color: rgb(106, 193, 255);
+  color: white;
+}
+
+.about {
+  width: 100%;
+  height: 70vh;
+  background-image: url(https://edge.mwallpapers.com/photos/celebrities/nature/sunset-nature-dusk-sun-outdoors-android-iphone-hd-wallpaper-background-downloadhd-wallpapers-desktop-background-android-iphone-1080p-4k-narpp.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.about nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 86px 32px 86px;
+}
+
+.about nav ul {
+  list-style: none;
+}
+
+.about nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.about nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.about nav ul li a:hover {
+  color: rgb(106, 193, 255);
+}
+
+.about .main .header h1 {
+  color: white;
+  position: relative;
+  font-size: 70px;
+  left: 10%;
+  top: 120px;
+  width: 650px;
+}
+
+.about .main button {
+  position: relative;
+  top: 150px;
+  left: 10%;
+  padding: 12px 48px;
+  font-size: 18px;
+  font-weight: 900;
+  border: solid 3px rgb(106, 193, 255);
+  background: none;
+  color: rgb(106, 193, 255);
+  border-radius: 16px;
+  transition: 0.2s;
+}
+
+.about .main button:hover {
+  background-color: rgb(106, 193, 255);
+  color: white;
+}
+
+.packages {
+  width: 100%;
+  height: 70vh;
+  background-image: url(https://fototips.ru/wp-content/uploads/2011/12/landscape_02.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.packages nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 86px 32px 86px;
+}
+
+.packages nav ul {
+  list-style: none;
+}
+
+.packages nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.packages nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.packages nav ul li a:hover {
+  color: rgb(106, 193, 255);
+}
+
+.packages .main .header h1 {
+  color: white;
+  position: relative;
+  font-size: 70px;
+  left: 10%;
+  top: 120px;
+  width: 650px;
+}
+
+.packages .main button {
+  position: relative;
+  top: 150px;
+  left: 10%;
+  padding: 12px 48px;
+  font-size: 18px;
+  font-weight: 900;
+  border: solid 3px rgb(106, 193, 255);
+  background: none;
+  color: rgb(106, 193, 255);
+  border-radius: 16px;
+  transition: 0.2s;
+}
+
+.packages .main button:hover {
+  background-color: rgb(106, 193, 255);
+  color: white;
+}
+
+.bookPage {
+  width: 100%;
+  height: 70vh;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/758/469/275/nigth-stars-trees-dark-wallpaper-preview.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.bookPage nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 86px 32px 86px;
+}
+
+.bookPage nav ul {
+  list-style: none;
+}
+
+.bookPage nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+.bookPage nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+.bookPage nav ul li a:hover {
+  color: rgb(106, 193, 255);
+}
+
+.bookPage .main .header h1 {
+  color: white;
+  position: relative;
+  font-size: 70px;
+  left: 10%;
+  top: 120px;
+  width: 650px;
+}
+
+.bookPage .main button {
+  position: relative;
+  top: 150px;
+  left: 10%;
+  padding: 12px 48px;
+  font-size: 18px;
+  font-weight: 900;
+  border: solid 3px rgb(106, 193, 255);
+  background: none;
+  color: rgb(106, 193, 255);
+  border-radius: 16px;
+  transition: 0.2s;
+}
+
+.bookPage .main button:hover {
+  background-color: rgb(106, 193, 255);
+  color: white;
+}
+
+.abt {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 43px;
+}
+
+.abt .img img {
+  width: 650px;
+  border-radius: 30px;
+}
+
+.abt .txt {
+  padding: 25px 35px;
+  background-color: rgb(64 102 150);
+  border-top-right-radius: 36px;
+  border-bottom-left-radius: 36px;
+}
+.abt .txt h1 {
+  color: white;
+  position: relative;
+  bottom: 20px;
+  margin: 20px 0;
+  font-size: 45px;
+}
+
+.abt .txt h3 {
+  color: white;
+  position: relative;
+  bottom: 20px;
+  margin: 20px 0;
+}
+
+.abt .txt p {
+  color: white;
+  width: 650px;
+  text-align: justify;
+  line-height: 22px;
+}
+
+.pc {
+  width: 100%;
+  padding: 40px 0;
+}
+
+.pc h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(64 102 150);
+  margin-bottom: 36px;
+  font-size: 45px;
+}
+.pc h1 span {
+  color: rgb(106, 193, 255);
+  margin-left: 14px;
+}
+
+.pc .pcBox {
+  width: 98%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px 10px;
+}
+
+.pc .pcBox .pcCard {
+  width: 350px;
+  height: 450px;
+  padding: 10px 10px;
+  box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 16px;
+}
+
+.pc .pcBox .pcCard .pcImg {
+  background-color: rgb(64 102 150);
+  width: 330px;
+  height: 220px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: none;
+  border-radius: 8px;
+}
+.pc .pcBox .pcCard .pcImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.4s;
+}
+
+.pc .pcBox .pcCard .pcImg:hover img {
+  transform: scale(1.2);
+}
+
+.pc .pcBox .pcCard .pcText {
+  text-align: center;
+}
+
+.pc .pcBox .pcCard .pcText .pcHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 10px 0;
+  color: rgb(106, 193, 255);
+}
+
+.pc .pcBox .pcCard .pcText .pcHead h2 {
+  color: rgb(64 102 150);
+  margin-left: 10px;
+}
+
+.pc .pcBox .pcCard .pcText p {
+  text-align: center;
+  margin-bottom: 8px;
+}
+.pc .pcBox .pcCard .pcText .price {
+  font-weight: 800;
+}
+
+.pc .pcBox .pcCard .pcText button {
+  color: rgb(106, 193, 255);
+  font-weight: 900;
+  padding: 10px 36px;
+  background: none;
+  border: solid 3px rgb(106, 193, 255);
+  border-radius: 12px;
+  transition: 0.2s;
+}
+
+.pc .pcBox .pcCard .pcText button:hover {
+  background-color: rgb(106, 193, 255);
+  color: white;
+}
+
+.gal {
+  width: 100%;
+  height: 100vh;
+  padding: 65px 0;
+}
+.gal h1 {
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(64 102 150);
+  margin-bottom: 35px;
+}
+.gal h1 span {
+  color: rgb(106, 193, 255);
+  margin-right: 14px;
+}
+
+.gal .gImg {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px 0;
+}
+
+.gal .gImg .gBox {
+  width: 450px;
+  height: 280px;
+}
+
+.gal .gImg .gBox img {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 16px;
+  transition: 0.3s;
+  object-fit: cover;
+  object-position: center;
+}
+
+.gal .gImg .gBox:hover img {
+  transform: scale(1.1);
+}
+
+.ser {
+  width: 100%;
+  height: 100vh;
+  padding: 80px 0;
+}
+
+.ser h1 {
+  font-size: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(64 102 150);
+  margin-bottom: 35px;
+}
+.ser h1 span {
+  color: rgb(106, 193, 255);
+  margin-left: 14px;
+}
+
+.ser .sBox {
+  width: 95%;
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 35px 20px;
+}
+
+.ser .sBox .sCard {
+  width: 450px;
+  text-align: center;
+  padding: 20px 10px;
+  transition: 0.2s;
+  border: none;
+  border-radius: 16px;
+}
+.ser .sBox .sCard:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ser .sBox .sCard i {
+  color: rgb(106, 193, 255);
+  font-size: 43px;
+  margin: 10px 10px;
+  transition: ease-in-out 0.3s;
+}
+
+.ser .sBox .sCard:hover i {
+  transform: scale(1.1);
+}
+.ser .sBox .sCard h2 {
+  color: rgb(64 102 150);
+  margin: 10px 0;
+}
+.ser .sBox .sCard p {
+  line-height: 22px;
+}
+
+.book {
+  width: 100%;
+  height: 100vh;
+  padding: 40px 0;
+  background-image: url(file:///C:/Users/HP/Desktop/Travel%20Website%20Part%203/image/book_bg.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.book h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  color: rgb(64 102 150);
+}
+
+.book h1 span {
+  color: rgb(106, 193, 255);
+  margin-right: 15px;
+}
+
+.book .b_box {
+  float: right;
+  margin-top: 60px;
+  margin-right: 160px;
+}
+
+.book .b_box .b_search p {
+  margin: 10px 0;
+}
+
+.book .b_box .b_search input {
+  width: 350px;
+  height: 40px;
+  padding: 5px 9px;
+  outline: none;
+  border: 2px solid rgb(106, 193, 255);
+  box-shadow: inset 0 0 2px rgb(106, 193, 255);
+  background: white;
+}
+
+.book .b_box .b_search textarea {
+  border: 2px solid rgb(106, 193, 255);
+  box-shadow: inset 0 0 2px rgb(106, 193, 255);
+  outline: none;
+  background: white;
+  padding: 8px 9px;
+}
+
+.book .b_box .b_search button {
+  font-size: 14px;
+  font-weight: 800;
+  color: rgb(106, 193, 255);
+  border: solid 3px rgb(106, 193, 255);
+  border-radius: 14px;
+  padding: 12px 46px;
+  background: white;
+  transition: 0.2s;
+}
+
+.book .b_box .b_search button:hover {
+  color: white;
+  background-color: rgb(106, 193, 255);
+}
+
+footer {
+  width: 100%;
+  padding: 20px 0;
+  background-image: url(https://r1.ilikewallpaper.net/iphone-wallpapers/download/27937/Aurora-Night-Sky-Dark-Blue-Nature-Art-iphone-wallpaper-ilikewallpaper_com.jpg);
+  text-align: center;
+  margin-top: 36px;
+}
+footer h3 {
+  color: white;
+}
+
+footer h3 span {
+  color: rgb(106, 193, 255);
+}
